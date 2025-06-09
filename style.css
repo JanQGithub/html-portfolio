@@ -38,13 +38,11 @@ nav ul {
   margin: 0; /* Remove default margin */
   display: flex; /* Ensure horizontal alignment */
   gap: 20px; /* Add spacing between links */
-  
 }
 
 nav a {
   text-decoration: none; /* Ensure consistent link styling */
   color: white; /* Set text color to white */
   text-decoration: none; /* Optional: Remove underline */
-
 }
 
