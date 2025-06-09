@@ -27,7 +27,7 @@ nav {
   justify-content: center;
   align-items: center; /* Added for Safari compatibility */
   text-align: center;
-  width: 50%; /* Ensure full width for centering */
+  width: 30%; /* Ensure full width for centering */
   margin-bottom: 10px;
   color: white;
 }
