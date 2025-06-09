@@ -29,13 +29,15 @@ p {
 
 nav {
   display: flex; /* Use flexbox for alignment */
-  justify-content: center; /* Center the navigation bar */
+  justify-content: center; /* Center the navigation bar horizontally */
+  align-items: center; /* Center the navigation bar vertically (Safari compatibility) */
   width: 100%; /* Ensure full width */
 }
 
 ul {
   display: flex; /* Use flexbox for horizontal alignment */
-  justify-content: center; /* Center the items */
+  justify-content: center; /* Center the items horizontally */
+  align-items: center; /* Center the items vertically (Safari compatibility) */
   gap: 20px; /* Add spacing between links */
   padding: 0; /* Remove default padding */
   margin: 0; /* Remove default margin */
