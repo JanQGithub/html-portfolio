@@ -54,11 +54,11 @@
   }
 
   img {
-    width: 100%; /* Adjust width dynamically */
-    height: auto; /* Maintain aspect ratio */
+    width: auto; /* Allow width to adjust dynamically */
+    height: auto; /* Allow height to adjust dynamically */
     max-width: 100%; /* Ensure the image doesn't exceed the viewport width */
-    max-height: 100vh; /* Ensure the image doesn't exceed the viewport height */
-    object-fit: contain; /* Scale the image proportionally */
+    max-height: 100%; /* Ensure the image doesn't exceed the viewport height */
+    object-fit: contain; /* Maintain aspect ratio without cropping */
   }
     
   </style>
