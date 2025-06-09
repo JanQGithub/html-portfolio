@@ -35,7 +35,9 @@
  nav {
     display: flex;
     justify-content: center;
-    text-align: center; /* Added to ensure centering */
+    align-items: center; /* Added for Safari compatibility */
+    text-align: center;
+    width: 100%; /* Ensure full width for centering */
     margin-bottom: 10px;
   }
 
@@ -43,6 +45,12 @@
     list-style: none; /* Remove default list styling */
     padding: 0; /* Remove default padding */
     margin: 0; /* Remove default margin */
+    display: flex; /* Ensure horizontal alignment */
+    gap: 20px; /* Add spacing between links */
+  }
+
+  nav a {
+    text-decoration: none; /* Ensure consistent link styling */
   }
     
   </style>
