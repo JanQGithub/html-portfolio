@@ -9,7 +9,7 @@ h1 {
 }
 
 p {
-  font-size: 2rem;
+  font-size: 1rem;
   color: white;
 }
 
@@ -28,26 +28,25 @@ p {
 }
 
 nav {
-  display: flex;
-  justify-content: center;
-  align-items: center; /* Added for Safari compatibility */
-  text-align: center;
-  width: 30%; /* Ensure full width for centering */
-  margin-bottom: 10px;
-  color: white;
+  display: flex; /* Use flexbox for alignment */
+  justify-content: center; /* Center the navigation bar */
+  width: 100%; /* Ensure full width */
 }
 
-nav ul {
-  list-style: none; /* Remove default list styling */
+ul {
+  display: flex; /* Use flexbox for horizontal alignment */
+  justify-content: center; /* Center the items */
+  gap: 20px; /* Add spacing between links */
   padding: 0; /* Remove default padding */
   margin: 0; /* Remove default margin */
-  display: flex; /* Ensure horizontal alignment */
-  gap: 20px; /* Add spacing between links */
-  
+  list-style: none; /* Remove default list styling */
 }
 
-nav a {
-  text-decoration: none; /* Ensure consistent link styling */
+li {
+  display: inline; /* Ensure list items are inline */
+}
+
+a {
+  text-decoration: none; /* Remove underline */
   color: white; /* Set text color to white */
-  text-decoration: none; /* Optional: Remove underline */
 }
